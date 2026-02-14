@@ -195,5 +195,9 @@ This project is publicly available for viewing and learning purposes. The dashbo
 
 ---
 
+## 🔗 Additional Resources
+
+- [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+- [DAX Guide](https://dax.guide/)
 
 *Last Updated: February 2026*
