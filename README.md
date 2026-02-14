@@ -47,7 +47,7 @@ Analyzed **3,282 sales transactions** totaling **$19.8M** in revenue across **22
 ### Data Preparation & Modeling
 - ✅ Power Query data validation and profiling (column quality, distribution analysis)
 - ✅ Calendar table creation for time intelligence with Year, Quarter, Month, MonthNumber columns
-- ✅ Star schema data modeling with one-to-many relationships
+- ✅ data modeling with one-to-many relationships
 - ✅ Data quality checks (3,282 valid transactions, no nulls in key fields)
 - ✅ Custom sort order implementation (MonthNumber for chronological ordering)
 
@@ -63,13 +63,11 @@ Analyzed **3,282 sales transactions** totaling **$19.8M** in revenue across **22
 - ✅ Interactive drill-through pages with automatic back button
 - ✅ Custom navigation buttons with page routing actions
 - ✅ Professional theme design with consistent color palette
-- ✅ Data bars for in-cell visual comparisons
 
 ### Advanced Features
 - ✅ Cross-page filtering and drill-through configuration
 - ✅ Dynamic filtering based on product selection
 - ✅ Sort by custom columns (MonthNumber for proper month ordering)
-- ✅ Solved date hierarchy challenges with blank filtering
 - ✅ Professional alignment and spacing using snap-to-grid
 
 ---
@@ -142,16 +140,10 @@ Chocolate-Sales-Dashboard/
 
 ### Challenges Solved During Development:
 
-1. **Date Hierarchy Ordering:** Months sorting alphabetically (Apr, Aug, Dec) instead of chronologically
+ **Date Hierarchy Ordering:** Months sorting alphabetically (Apr, Aug, Dec) instead of chronologically
    - **Solution:** Created MonthNumber column (1-12) and set "Sort by Column" property to fix ordering
 
-2. **Calendar Table Blank Values:** Calendar extended through 2025 but data only through Aug 2024, creating blank entries
-   - **Solution:** Applied filter to remove blank dates while maintaining relationship integrity
-
-3. **Year-over-Year Growth Context:** YoY measure showing "--" for 2022 due to missing 2021 comparison data
-   - **Solution:** Replaced with Total Transactions card to show meaningful KPI across all time periods
-
-4. **Conditional Formatting:** Needed intuitive visual indicators for product performance without overwhelming users
+ **Conditional Formatting:** Needed intuitive visual indicators for product performance without overwhelming users
    - **Solution:** Implemented green-to-red gradient based on sales values, providing instant visual insights
 
 ---
@@ -160,7 +152,7 @@ Chocolate-Sales-Dashboard/
 
 **Business Intelligence:** Power BI Desktop, Data Visualization  
 **Data Analysis:** DAX (Data Analysis Expressions), Power Query (M language)  
-**Data Modeling:** Star schema, relationships, calculated tables, time intelligence  
+**Data Modeling:** relationships, calculated tables, time intelligence  
 **Advanced Features:** Drill-through, conditional formatting, interactive navigation, dynamic filtering  
 **Business Acumen:** KPI selection, executive storytelling, insight generation, portfolio analysis  
 
@@ -175,17 +167,17 @@ This project was built as part of my data analyst portfolio to demonstrate:
 - Professional presentation standards for executive audiences
 - Self-directed learning and technical skill development
 
-**Time Investment:** ~3 days from concept to completion  
+**Time Investment:** ~1 day from concept to completion  
 **Key Learnings:** Date hierarchy management, drill-through configuration, conditional formatting best practices
 
 ---
 
 ## 📬 Contact & Connect
 
-**[Your Name]**  
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🐙 GitHub: [github.com/yourusername](https://github.com/yourusername)  
+**[Muralidhara]**  
+📧 Email: murali272004@gmail.com
+💼 LinkedIn: https://www.linkedin.com/in/murali-s-012196298/
+🐙 GitHub: https://github.com/Murali-lns  
 
 💡 *Open to Data Analyst opportunities | Actively seeking entry-level to junior positions in Business Intelligence*
 
@@ -203,10 +195,5 @@ This project is publicly available for viewing and learning purposes. The dashbo
 
 ---
 
-## 🔗 Additional Resources
-
-- [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
-- [DAX Guide](https://dax.guide/)
-- [My Portfolio Website](#) *(if you have one)*
 
 *Last Updated: February 2026*
